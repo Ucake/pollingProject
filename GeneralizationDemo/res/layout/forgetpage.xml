@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	
+	<EditText 
+	    android:id="@+id/original_password"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="10dp"
+	     android:layout_marginRight="10dp"
+	    android:layout_marginTop="20dp"
+	    android:hint="@string/originalPass"
+	    android:gravity="center"
+	    android:inputType="textPassword"
+	    android:textSize="16sp"/>
+
+
+	<EditText 
+	    android:id="@+id/new_password1"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="10dp"
+	     android:layout_marginRight="10dp"
+	    android:layout_marginTop="20dp"
+	    android:hint="@string/newPass"
+	    android:gravity="center"
+	    android:inputType="textPassword"
+	    android:textSize="16sp"/>
+	
+
+	
+	<EditText 
+	    android:id="@+id/new_password2"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="20dp"
+	    android:hint="@string/newPassOnce"
+	    android:gravity="center"
+	    android:inputType="textPassword"
+	    android:textSize="16sp"/>
+	
+	<Button 
+	    android:id="@+id/submitM"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:layout_marginTop="20dp"
+	    android:text="@string/submitM"
+	    android:gravity="center"
+	    android:background="#29b6f6"/>
+	
+</LinearLayout>

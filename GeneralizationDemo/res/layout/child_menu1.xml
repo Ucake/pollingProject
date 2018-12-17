@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/child_layout1"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:background="#FFFFFF"  
+    android:gravity="bottom"  
+    android:orientation="vertical" >  
+  
+    <RelativeLayout  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" >  
+  
+        <Button  
+            android:id="@+id/question1"  
+            android:layout_width="wrap_content"  
+            android:layout_height="45dp"  
+            android:background="@drawable/actionsheet_top_selector"  
+            android:paddingLeft="10dp"  
+            android:paddingRight="10dp"  
+            android:text="问题型"  
+            android:textColor="#000000"  
+            android:textSize="16sp" />  
+  
+        <View  
+            android:layout_width="wrap_content"  
+            android:layout_height="1px"  
+            android:layout_alignLeft="@id/question1"  
+            android:layout_alignRight="@id/question1"  
+            android:layout_below="@id/question1"  
+            android:background="#E4E4E4" />  
+    </RelativeLayout>  
+  
+    <RelativeLayout  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" >  
+  
+        <Button  
+            android:id="@+id/question2"  
+            android:layout_width="wrap_content"  
+            android:layout_height="45dp"  
+            android:background="@drawable/actionsheet_top_selector"  
+            android:paddingLeft="10dp"  
+            android:paddingRight="10dp"  
+            android:text="隐患型"  
+            android:textColor="#000000"  
+            android:textSize="16sp" />  
+  
+        <View  
+            android:layout_width="wrap_content"  
+            android:layout_height="1px"  
+            android:layout_alignLeft="@id/question2"  
+            android:layout_alignRight="@id/question2"  
+            android:layout_below="@id/question2"  
+            android:background="#E4E4E4" />  
+    </RelativeLayout>  
+  
+    <RelativeLayout  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content" >  
+  
+        <Button  
+            android:id="@+id/question3"  
+            android:layout_width="wrap_content"  
+            android:layout_height="45dp"  
+            android:background="@drawable/actionsheet_top_selector"  
+            android:paddingLeft="10dp"  
+            android:paddingRight="10dp"  
+            android:text="报警型"  
+            android:textColor="#000000"  
+            android:textSize="16sp" />  
+  
+        <View  
+            android:layout_width="wrap_content"  
+            android:layout_height="1px"  
+            android:layout_alignLeft="@id/question3"  
+            android:layout_alignRight="@id/question3"  
+            android:layout_below="@id/question3"  
+            android:background="#E4E4E4" />  
+    </RelativeLayout>  
+  
+</LinearLayout>  

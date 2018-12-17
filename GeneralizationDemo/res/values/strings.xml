@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">巡检APP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="phoneNum">请输入用户名</string>
+    <string name="password_moren">请输入密码</string>
+    <string name="jobNum">用户名</string>
+    <string name="password">密码</string>
+    <string name="register">登录</string>
+    <string name="auto">下次自动登陆</string>
+    <string name="message_code">验证码</string>
+    <string name="message_get">获取验证码</string>
+    <string name="people_choose">工作人员</string>
+    <string name="start_time">开始时间*</string>
+    <string name="end_time">结束时间*</string>
+    <string name="dim">此处可以进行模糊查询</string>
+    <string name="check">查询</string>
+    <string name="mission_name">任务名称</string>
+    <string name="mission_condition">任务状态</string>
+    <string name="mission_type">任务类型</string>
+    <string name="abnormal_status">异常类型</string>
+    <string name="phoNum">请输入11位的用户名</string>
+    
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="action_plus">功能</string>
+    <string name="plus_scan">扫一扫</string>
+    <string name="password_change">修改密码</string>
+    <string name="originalPass">请输入原密码</string>
+ 	<string name="newPass">请输入新密码</string>
+ 	<string name="newPassOnce">请再次输入新密码</string>
+ 	<string name="submitM">提交</string>
+ 	<string name="config_set">系统设置</string>
+ 	
+ 	<string name="checkcheck">审核成功</string>
+ 	<string name="anewAnnounce">重新下发任务</string>
+ 	<string name="checkPass">审核通过</string>
+ 	<string name="update">版本更新</string>
+ 	
+ 	
+ 	<string name="btn_receive">接单</string>
+ 	<string name="btn_reject">拒单</string>
+ 	
+ 
+    <string name="action_search">搜索</string>
+ 
+    <string name="action_album">我的相册</string>
+    <string name="action_collection">我的收藏</string>
+    <string name="action_card">我的银行卡</string>
+    <string name="action_feed">意见反馈</string>
+    <string name="plus_group_chat">发起群聊</string>
+    <string name="plus_add_friend">添加朋友</string>
+    <string name="plus_video_chat">视频聊天</string>
+    <string name="plus_take_photo">拍照分享</string>
+    
+   
+    
+    <string name="people_string">人员</string>
+    <string name="task_string">任务</string>
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    <string name="morning">白天</string>
+    <string name="afternoon">晚上</string>
+    <string name="Yes">确定</string>
+    <string name="item_text2">任务</string>
+    <string name="item_button">选我</string>
+    <string name="item_text1">小宝</string>
+    
+    
+    <string name="task_listview_text">任务列表</string>
+	<string name="task_task_text">任务1</string>
+	<string name="task_details_text1">任务单号</string>
+	<string name="task_details_text2">任务单号</string>
+	<string name="task_details_text3">任务单号</string>
+	<string name="task_details_text4">任务单号</string>
+	<string name="task_details_text5">任务单号</string>
+	<string name="task_details_text6">任务单号</string>
+	<string name="task_details_text7">任务单号</string>
+	<string name="task_details_text8">任务单号</string>
+	<string name="task_details_text9">任务单号</string>
+	<string name="task_details_text10">任务单号</string>
+	<string name="task_details_text11">任务单号</string>
+	<string name="task_details_text12">任务单号</string>
+	<string name="task_details_text13">任务单号</string>
+	<string name="task_details_Ttext">任务详情</string>
+
+	
+	<string name="task_task_item_text1">任务1</string>
+	<string name="task_task_item_text2">2017/11/20</string>
+	<string name="task_people_page_text">张三</string>
+	<string name="task_name_text">请选择人员</string>
+	
+	
+	
+	<string name="task_details_button_yes">下发</string>
+    <string name="task_details_button_no">返回</string>
+    <string name="task_details_textview_id">序号</string>
+    <string name="task_details_textview_name">任务名称</string>
+    <string name="task_details_textview_level">任务级别</string>
+    <string name="task_details_textview_source">任务来源</string>
+    <string name="task_details_textview_nature">任务性质</string>
+    <string name="task_details_textview_nature_fix">固定任务</string>
+    <string name="task_details_textview_nature_time">任务周期</string>
+    <string name="task_details_textview_nature_tem">临时任务</string>
+    <string name="task_details_textview_nature_start">预期开始时间</string>
+    <string name="task_details_textview_nature_end">预期结束时间</string>
+    <string name="task_details_textview_place">所涵盖地点</string>
+    <string name="task_details_textview_describe">任务描述</string>
+    <string name="task_details_textview_people">任务执行人</string>
+    <string name="task_details_textview_hit">选择人员</string>
+    <string name="task_details_textview_identiry_authentication">身份认证</string>
+    <string name="task_details_textview_event">任务事件</string>
+    <string name="task_details_textview_check">任务审核等级</string>
+    <string name="task_details_textview_check1">一级审核</string>
+    <string name="task_details_textview_check2">二级审核</string>
+    <string name="task_details_textview_check3">三级审核</string>
+    <string name="task_details_textview_check1_result">一级审核结果</string>
+    <string name="task_details_textview_check1_opinion">一级审核意见</string>
+    <string name="task_details_textview_check2_result">二级审核结果</string>
+    <string name="task_details_textview_check2_opinion">二级审核意见</string>
+    <string name="task_details_textview_check3_result">三级审核结果</string>
+    <string name="task_details_textview_check3_opinion">三级审核意见</string>
+    
+    
+    <string name="seetled_time_text">固定周期</string>
+    <string name="seetled_time_edit">例如：每四个小时</string>
+    <string name="temporary_time_textstart">预期开始时间</string>
+    <string name="temporary_time_editstart">例如：2018-01-15</string>
+    <string name="temporary_time_textend">预期结束时间</string>
+    <string name="temporary_time_editend">例如：2018-01-20</string>
+    
+    <string name="add_task">添加新任务</string>
+    <string name="editor_task">编辑</string>
+    <string name="id_task">序号</string>
+    <string name="name_task">名称</string>
+    
+     <item type="id" name ="tag_holder"></item>
+    <item type="id" name ="tag_item_click"></item>
+
+</resources>

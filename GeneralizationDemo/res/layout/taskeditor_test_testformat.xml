@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#FFFFE0">
+        <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:fadeScrollbars="false"
+        android:scrollbarThumbVertical="@drawable/barattr"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp">
+
+        <LinearLayout
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+			
+            
+                 
+            
+        </LinearLayout>
+    </ScrollView>
+<LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        
+
+       
+            <Button
+                android:id="@+id/task_details_button_yes"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/sure"
+                android:textSize="20sp" 
+                android:background="@drawable/button_form"/>
+            <View 
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/task_details_button_no"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:textSize="20sp" 
+                 android:background="@drawable/button_form"/>
+       
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,216 @@
+{
+	"Msg": "³É¹¦",
+	"data": [
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 40,
+			"time": "2018-11-21 13:30:29.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 40,
+			"time": "2018-11-21 13:20:28.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 40,
+			"time": "2018-11-21 13:10:28.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 6,
+			"shidu": 40,
+			"time": "2018-11-21 13:00:27.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 10,
+			"shidu": 39,
+			"time": "2018-11-21 12:50:26.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 18,
+			"shidu": 39,
+			"time": "2018-11-21 12:40:26.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 10,
+			"shidu": 39,
+			"time": "2018-11-21 12:30:25.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 16,
+			"shidu": 40,
+			"time": "2018-11-21 12:20:24.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 12,
+			"shidu": 39,
+			"time": "2018-11-21 12:10:23.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 10,
+			"shidu": 39,
+			"time": "2018-11-21 12:00:23.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 12,
+			"shidu": 39,
+			"time": "2018-11-21 11:50:22.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 6,
+			"shidu": 39,
+			"time": "2018-11-21 11:40:21.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 4,
+			"shidu": 39,
+			"time": "2018-11-21 11:30:21.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 4,
+			"shidu": 39,
+			"time": "2018-11-21 11:20:20.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 8,
+			"shidu": 40,
+			"time": "2018-11-21 11:10:20.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 40,
+			"time": "2018-11-21 11:00:19.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 40,
+			"time": "2018-11-21 10:50:18.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 2,
+			"shidu": 25,
+			"time": "2018-11-21 10:50:13.0",
+			"wendu": 19
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 41,
+			"time": "2018-11-21 10:45:57.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 41,
+			"time": "2018-11-21 10:35:56.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 2,
+			"shidu": 39,
+			"time": "2018-11-21 10:25:56.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 1,
+			"shidu": 27,
+			"time": "2018-11-21 10:25:51.0",
+			"wendu": 19
+		},
+		{
+			"doorStat": 1,
+			"doorStatChange": 5,
+			"shidu": 40,
+			"time": "2018-11-21 10:25:25.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 14,
+			"shidu": 39,
+			"time": "2018-11-21 10:15:24.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 5,
+			"shidu": 36,
+			"time": "2018-11-21 10:05:24.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 41,
+			"time": "2018-11-21 09:53:45.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 41,
+			"time": "2018-11-21 09:43:44.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 41,
+			"time": "2018-11-21 09:33:43.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 2,
+			"shidu": 41,
+			"time": "2018-11-21 09:23:43.0",
+			"wendu": 22
+		},
+		{
+			"doorStat": 0,
+			"doorStatChange": 0,
+			"shidu": 41,
+			"time": "2018-11-21 09:13:42.0",
+			"wendu": 22
+		}
+	],
+	"result": "10000"
+}

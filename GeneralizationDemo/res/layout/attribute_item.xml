@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/attribute_item_r"
+    android:paddingLeft="50dp"
+    android:background="#FFFFE0">
+    <TextView 
+        android:id="@+id/attribute_item_name"
+        android:layout_height="30dp"
+       	
+        android:layout_width="80dp"
+        android:textSize="16dp"
+        android:text="总想想连接"
+        android:layout_alignParentLeft="true"/>
+    <TextView 
+        android:id="@+id/attribute_item_time"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:textSize="16dp"
+        android:text="2018-06-25 13:55"
+        android:layout_toRightOf="@id/attribute_item_name"
+        android:layout_marginLeft="5dp"/>
+    <TextView 
+        android:id="@+id/attribute_item_value"
+         android:layout_height="30dp"
+         android:gravity="center"
+       	 android:layout_width="wrap_content"
+         android:textSize="16dp"
+         android:text="3818.789"
+         android:layout_alignParentRight="true"/>
+    
+
+</RelativeLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/first2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" >
+
+     <!--    <LinearLayout 
+            android:id="@+id/layout_1_1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            
+            > -->
+        
+        <Button
+            android:id="@+id/mission_implement"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/download" />
+     
+        
+	
+        <Button
+            android:id="@+id/mission_born"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/mission_implement"
+            android:background="@drawable/mission_assign" 
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/mission_born"
+            android:background="@drawable/calendar_256px" 
+            android:layout_marginLeft="40dp"/>
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/mission_implement"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/map_show" />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/mission_born"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/map"
+            android:background="@drawable/check_search" />
+        
+        <Button
+            android:id="@+id/search"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@id/schedule"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/check"
+            android:background="@drawable/mission_manage" />
+        
+        <Button
+            android:id="@+id/statistics"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/map"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/statistics_" />
+        
+        <Button 
+            android:id="@+id/abnormal"
+            android:layout_marginTop="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="45dp"
+            android:layout_below="@id/check"
+            android:layout_toRightOf="@id/statistics"
+            android:background="@drawable/warning_256px" 
+            />
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_below="@id/first"
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="bottom|center"
+		android:orientation="vertical">
+        
+        <Button 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:id="@+id/logout"
+	        android:text="退出登录"
+	        android:background="#29b6f6"
+	        />
+    </LinearLayout>
+    <!-- #29b6f6 -->
+    
+</RelativeLayout>

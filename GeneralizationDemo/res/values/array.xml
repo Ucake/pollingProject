@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="task_level">
+        <item>无</item>
+        <item>班组</item>
+        <item>车间 </item>
+        <item>公司</item>
+    </string-array>
+    
+    <string-array name="task_source">
+        <item>无</item>
+        <item>系统原因</item>
+        <item>运行中异常情况</item>
+        <item>运转时间达到定检周期</item>
+    </string-array>
+    
+    <string-array name="task_nature">
+        <item>无</item>
+        <item>固定任务</item>
+        <item>临时任务</item>
+    </string-array>
+    
+    <string-array name="task_identiry_authentication">
+        <item>无</item>
+        <item>指纹认证</item>
+        <item>人脸识别认证</item>
+        <item>账号密码认证</item>
+    </string-array>
+</resources>

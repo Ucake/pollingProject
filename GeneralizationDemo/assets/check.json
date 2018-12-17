@@ -1,0 +1,107 @@
+{
+    "mission_id":"B34592",
+    "font_size":25,
+    "font_color":"#080808",
+    "note": [{
+        "note_name":"任务开始时间",
+        "note_content":"2018-1-18 12:00:00",
+        "font_color":"#080808",
+        "font_size":20
+    },{
+        "note_name":"任务结束时间",
+        "note_content":"2018-1-18 18:00:00",
+        "font_color":"#080808",
+        "font_size":20
+    },{
+        "note_name":"任务名称",
+        "note_content":"日常任务",
+        "font_color":"#080808",
+        "font_size":20
+    },{
+        "note_name":"任务制定人",
+        "note_content":"李小曼",
+        "font_color":"#080808",
+        "font_size":20
+    },{
+        "note_name":"涵盖区域",
+        "note_content":"12345678",
+        "font_color":"#080808",
+        "font_size":20
+    },{
+        "note_name":"审核类型",
+        "note_content":"一级审核",
+        "font_color":"#080808",
+        "font_size":20
+      },{
+        "note_name":"任务来源",
+        "note_content":"日常巡检",
+        "font_color":"#080808",
+        "font_size":20
+    }, {
+        "note_name":"巡检人员",
+        "note_content":"王小量",
+        "font_color":"#003399",
+        "font_size":20
+    }, {
+        "note_name":"班组",
+        "note_content":"班组3",
+        "font_color":"#080808",
+        "font_size":20
+    },{
+        "note_name":"任务性质",
+        "note_content":"固定任务",
+        "font_color":"#080808",
+        "font_size":20
+    }, {
+        "note_name":"所带工具",
+        "note_content": "螺丝刀、钳子",
+        "font_color": "#080808",
+        "font_size": 20
+    },{
+        "note_name":"备注",
+        "note_content":"希望尽快完成",
+        "font_color":"#ff6600",
+        "font_size":20
+    }],
+    "event": [{
+        "event_id": "A1",
+        "event_name": "除氧器",
+        "font_color": "#6699FF",
+        "font_size": 20,
+        "work": [{
+            "work_id": "B1",
+            "work_name": "温度",
+            "font_color": "#000000",
+            "font_size": 15,
+            
+            "view": [{
+                "view_class": "照片",
+                "view_name": "温度拍照",
+                "font_size": 15,
+                "font_color": "#080808"
+            }, {
+                "view_class": "温度示数",
+                "view_name": "52°C",
+                "font_size": 15,
+                "font_color": "#080808"
+            }]
+        }, {
+            "work_id": "B2",
+            "work_name": "仪表",
+            "font_color": "#000000",
+            "font_size": 15,
+            
+            "view": [{
+                "view_class": "照片",
+                "view_name": "仪表拍照",
+                "font_size": 15,
+                "font_color": "#080808"
+            }, {
+                "view_class": "仪表示数",
+                "view_name": "3600r/min",
+                "font_size": 15,
+                "font_color": "#080808"
+            }]
+        }]
+    }]
+}

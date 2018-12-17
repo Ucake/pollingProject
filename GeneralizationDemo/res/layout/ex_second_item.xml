@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:layout_alignParentLeft="true"
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="啊啊啊啊"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView 
+        android:layout_toRightOf="@+id/name_tv"
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10-18 10:11:12"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView 
+        
+        android:id="@+id/value_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="32"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

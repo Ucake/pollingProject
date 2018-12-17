@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+    <ImageButton
+        android:id="@+id/ranked_event_imageup"
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:layout_toLeftOf="@+id/ranked_event_text"
+        android:background="@null"
+        android:src="@drawable/ups"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/ranked_event_text"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="jfkdjfioejfoijldjf"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/ranked_event_imagedown"
+        android:layout_width="35dp"
+        android:layout_height="45dp"
+        android:layout_toRightOf="@+id/ranked_event_text"
+        android:background="@null"
+        android:src="@drawable/downs"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

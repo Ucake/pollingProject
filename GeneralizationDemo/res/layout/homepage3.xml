@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:columnCount="3"
+        android:orientation="horizontal" >
+<!-- -->
+		<!-- 第一层   -->        
+		<Button
+            android:id="@+id/mission_implement"
+            android:layout_width="75dp"
+            android:layout_height="80dp"
+            android:background="@drawable/download1" />
+
+        <Button
+            android:id="@+id/mission_born"
+            android:layout_width="75dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/mission_assign2" />
+        <Button
+            android:id="@+id/abnormal"
+            android:layout_width="75dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/warning8" />
+
+        <!-- <Button
+            android:id="@+id/schedule"
+            android:layout_width="75dp"
+            android:layout_height="80dp"
+            android:background="@drawable/calendar3" 
+              />  -->
+         <!-- 第er层   --> 
+        <Button
+            android:id="@+id/map"
+            android:layout_width="75dp"
+            android:layout_height="85dp"
+            android:background="@drawable/map_show4" 
+            android:layout_marginTop="20dp"/>
+        
+        <Button
+            android:id="@+id/check"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="75dp"
+            android:layout_height="85dp"
+            android:background="@drawable/check_search5" 
+            android:layout_marginTop="20dp"/>
+        
+        <Button
+            android:id="@+id/search"
+            android:layout_width="75dp"
+            android:layout_height="85dp"
+            android:background="@drawable/mission_manage6"
+            android:layout_marginTop="20dp"/>
+        <!-- 第三层   --> 
+        <Button
+            android:id="@+id/statistics"
+            android:layout_width="75dp"
+            android:layout_height="85dp"
+            android:background="@drawable/statistics7" 
+            android:layout_marginTop="20dp"/>
+        
+        
+        <Button
+            android:id="@+id/sensor"
+            android:layout_width="75dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/sensor9"
+            android:layout_marginTop="20dp" 
+            android:visibility="visible"/>
+    
+    </GridLayout>
+
+      <LinearLayout 
+        android:layout_below="@id/first"
+        android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="bottom|center"
+		android:orientation="vertical">
+        
+        <Button 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:id="@+id/logout"
+	        android:text="退出登录"
+	        android:background="#29b6f6"
+	        />
+    </LinearLayout>
+
+</LinearLayout>

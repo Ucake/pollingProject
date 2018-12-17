@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/equipment_item_factory"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="哦哦哦哦哦哦哦哦哦哦哦哦"
+        android:textSize="20dp" 
+        android:maxEms="8"/>
+
+    <com.sensorinfor.main.MyTextView
+       	android:id="@+id/equipment_item_mytextview"
+        android:layout_toLeftOf="@+id/equipment_item_text2"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:textColor="#000000"
+        android:text="44"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp" 
+        android:gravity="center"></com.sensorinfor.main.MyTextView>
+    <TextView 
+        android:id="@+id/equipment_item_text2"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="详情"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    
+
+</RelativeLayout>

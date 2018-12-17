@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+    
+    <!-- xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" -->
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="25dp"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:text="WELCOME"
+        android:layout_marginTop="25dp"
+        android:textSize="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        />
+    
+    
+    </RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="25dp"
+    android:orientation="horizontal"
+    >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/jobNum"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText 
+        android:id="@+id/accounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:phoneNumber="true"
+        android:gravity="center"
+        
+        android:hint="@string/phoneNum"/>
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal"
+    >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/password"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText 
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:hint="@string/password_moren"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="18sp"/>
+    </LinearLayout>
+    <!-- android:hint="@string/importPas" -->
+ 
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal"
+    >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/message_code"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText 
+        android:id="@+id/message"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:textSize="18sp"
+        android:phoneNumber="true"
+        android:gravity="center"/>
+    
+    <TextView 
+        android:id="@+id/sendmessage"
+        android:text="@string/message_get"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        />
+</LinearLayout> 
+ 
+    <Button 
+        android:id="@+id/login_generalization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/register"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#29b6f6"/>
+    <CheckBox 
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/auto"
+        android:textSize="12sp"
+        android:layout_marginLeft="15dp"/>
+</LinearLayout>

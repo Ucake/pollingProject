@@ -1,0 +1,809 @@
+﻿{
+	"tasklist":[
+		{
+			"task_name":"巡检任务",
+			"task_num":"1"
+		},
+		{
+			"task_name":"巡检任务1",
+			"task_num":"2"
+		},
+		{
+			"task_name":"巡检任务2",
+			"task_num":"3"
+		},
+		{
+			"task_name":"巡检任务3",
+			"task_num":"4"
+		}
+	],
+	"tasknature":[
+		"巡检任务",
+		"维修任务"
+	],
+	"format": [
+		{
+			"addedittext": [
+				{
+					"edittext_name": "任务序号",
+					"edittext_content": "4",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "任务名称",
+					"edittext_content": "巡检任务",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "任务描述",
+					"edittext_content": "巴拉巴拉巴拉",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "所涵盖地点",
+					"edittext_content": "车间一车间二",
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			],
+			"addspinner": [
+				{
+					"spinner_name": "任务级别",
+					"spinner_content": "班组",
+					"spinner_array": [
+						"无",
+						"班组",
+						"车间",
+						"公司"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "任务来源",
+					"spinner_content": "系统原因",
+					"spinner_array": [
+						"无",
+						"系统原因",
+						"运行种异常情况",
+						"运转时间达到定检周期"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "任务性质",
+					"spinner_content": "固定任务",
+					"spinner_array": [
+						"无",
+						"固定任务",
+						"临时任务"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "身份验证",
+					"spinner_content": "指纹验证",
+					"spinner_array": [
+						"无",
+						"指纹验证",
+						"面部识别"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			],
+			"addbutton": [
+				{
+					
+					"button_name": "工具选择",
+					"button_content": "选择工具",
+					"content":[
+						{
+							"content_name":"工具1",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"工具2",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"工具3",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"工具4",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"工具5",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具6",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"工具7",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"工具8",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具9",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"工具10",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具11",
+						 	"content_isselect":"true"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"button_name": "配件",
+					"button_content": "选择配件",
+					"content":[
+						{
+							"content_name":"配件1",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件2",
+						 	"content_isselect":"2"
+						},
+						{
+							"content_name":"配件3",
+						 	"content_isselect":"4"
+						},
+						{
+							"content_name":"配件4",
+						 	"content_isselect":"4"
+						},
+						{
+							"content_name":"配件5",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件6",
+						 	"content_isselect":"1"
+						},
+						{
+							"content_name":"配件7",
+						 	"content_isselect":"2"
+						},
+						{
+							"content_name":"配件8",
+						 	"content_isselect":"8"
+						},
+						{
+							"content_name":"配件9",
+						 	"content_isselect":"1"
+						},
+						{
+							"content_name":"配件10",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件11",
+						 	"content_isselect":"3"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"button_name": "任务事件",
+					"button_content": "选择事件",
+					"content":[
+						{
+							"content_name":"事件1",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"事件2",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"事件3",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"事件4",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"事件5",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件6",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"事件7",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"事件8",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件9",
+						 	"content_isselect":"true"
+						},
+						{
+							"content_name":"事件10",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件11",
+						 	"content_isselect":"true"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				}
+				
+			],
+			"addcheck": [
+				{
+					"check_name": "一级审核",
+					"check_content": "true",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"check_name": "二级审核",
+					"check_content": "true",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"check_name": "三级审核",
+					"check_content": "false",
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			]
+			}
+			],
+	"formatinspection": [
+		{
+			"addedittext": [
+				{
+					"edittext_name": "任务序号",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "任务名称",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "任务描述",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "所涵盖地点",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			],
+			"addspinner": [
+				{
+					"spinner_name": "任务级别",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"班组",
+						"车间",
+						"公司"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "任务来源",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"系统原因",
+						"运行种异常情况",
+						"运转时间达到定检周期"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "任务性质",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"固定任务",
+						"临时任务"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "身份验证",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"指纹验证",
+						"面部识别"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			],
+			"addbutton": [
+				{
+					
+					"button_name": "工具列表",
+					"button_content": "选择工具",
+					"content":[
+						{
+							"content_name":"工具1",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具2",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具3",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具4",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具5",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具6",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具7",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具8",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具9",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具10",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具11",
+						 	"content_isselect":"false"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"button_name": "配件列表",
+					"button_content": "选择配件",
+					"content":[
+						{
+							"content_name":"配件1",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件2",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件3",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件4",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件5",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件6",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件7",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件8",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件9",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件10",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件11",
+						 	"content_isselect":"0"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"button_name": "任务事件",
+					"button_content": "选择事件",
+					"content":[
+						{
+							"content_name":"事件1",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件2",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件3",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件4",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件5",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件6",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件7",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件8",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件9",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件10",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件11",
+						 	"content_isselect":"false"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				}
+				
+			],
+			"addcheck": [
+				{
+					"check_name": "一级审核",
+					"check_content": "false",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"check_name": "二级审核",
+					"check_content": "false",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"check_name": "三级审核",
+					"check_content": "false",
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			]
+			
+		}
+	],
+	"formatrepair": [
+		{
+			"addedittext": [
+				{
+					"edittext_name": "任务序号",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "任务名称",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "任务描述",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"edittext_name": "所涵盖地点",
+					"edittext_content": "",
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			],
+			"addspinner": [
+				{
+					"spinner_name": "任务级别",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"班组",
+						"车间",
+						"公司"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "任务来源",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"系统原因",
+						"运行种异常情况",
+						"运转时间达到定检周期"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "任务性质",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"固定任务",
+						"临时任务"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"spinner_name": "身份验证",
+					"spinner_content": "无",
+					"spinner_array": [
+						"无",
+						"指纹验证",
+						"面部识别"
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			],
+			"addbutton": [
+				{
+					
+					"button_name": "工具列表",
+					"button_content": "选择工具",
+					"content":[
+						{
+							"content_name":"工具1",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具2",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具3",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具4",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具5",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具6",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具7",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具8",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具9",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具10",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"工具11",
+						 	"content_isselect":"false"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"button_name": "配件列表",
+					"button_content": "选择配件",
+					"content":[
+						{
+							"content_name":"配件1",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件2",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件3",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件4",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件5",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件6",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件7",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件8",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件9",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件10",
+						 	"content_isselect":"0"
+						},
+						{
+							"content_name":"配件11",
+						 	"content_isselect":"0"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"button_name": "任务事件",
+					"button_content": "选择事件",
+					"content":[
+						{
+							"content_name":"事件1",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件2",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件3",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件4",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件5",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件6",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件7",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件8",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件9",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件10",
+						 	"content_isselect":"false"
+						},
+						{
+							"content_name":"事件11",
+						 	"content_isselect":"false"
+						}
+						
+					],
+					"font_color": "#080808",
+					"font_size": 20
+				}
+				
+			],
+			"addcheck": [
+				{
+					"check_name": "一级审核",
+					"check_content": "false",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"check_name": "二级审核",
+					"check_content": "false",
+					"font_color": "#080808",
+					"font_size": 20
+				},
+				{
+					"check_name": "三级审核",
+					"check_content": "false",
+					"font_color": "#080808",
+					"font_size": 20
+				}
+			]
+			
+		}
+	]
+}

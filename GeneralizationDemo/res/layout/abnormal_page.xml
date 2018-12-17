@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lay_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal"  
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_time" 
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <EditText
+            android:id="@+id/start_time_abnormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:focusable="false"
+            android:hint="请选择开始时间"
+            android:gravity="center"/>
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/lin_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal"  
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/end_time" 
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+        <EditText
+            android:id="@+id/end_time_abnormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:hint="请选择结束时间"
+            android:gravity="center"/>
+            
+    </LinearLayout>
+    
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal"  
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abnormal_status" 
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"/>
+
+       <Spinner 
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/abnormal_status"
+           />
+    </LinearLayout>
+    
+      <TextView 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="(注：标*的为必填项，其他为选填项)"
+           />
+      
+         <Button 
+             android:id="@+id/check_abnormal"
+             android:text="@string/check"
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:textSize="16sp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:background="#29b6f6"
+             android:layout_marginTop="20dp"/>
+ 
+         <LinearLayout  
+               android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal"  
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp">
+         <ListView android:id="@+id/list20"  
+  			android:layout_width="fill_parent" 
+  			android:layout_height="wrap_content" />
+         </LinearLayout>
+          
+</LinearLayout>
